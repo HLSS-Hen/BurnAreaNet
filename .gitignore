@@ -1,0 +1,6 @@
+.env
+__pycache__
+logs
+mass_human_burns
+*.safetensors
+*.pt
