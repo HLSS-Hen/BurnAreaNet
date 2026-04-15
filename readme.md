@@ -1,7 +1,7 @@
 # BurnAreaNet
 This repository contains the code for training and testing BurnAreaNet, as described in the paper:
 
-> **BurnAreaNet: A Deep Learning Method for Estimating Burned Total Body Surface Area from 2D Masks**
+> **BurnAreaNet: A Deep Learning Method for Estimating Total Body Surface Area from 2D Masks**
 
 ## Overview
 The code in this repository is designed to reproduce the experiments and results from our paper on estimating the Total Body Surface Area (TBSA) affected by burns using deep learning and 2D masks.
@@ -33,7 +33,7 @@ This project is licensed under the Apache 2.0 License.
 ## Citation
 ```bibtex
 @article{burnareanet,
-  title={BurnAreaNet: A Deep Learning Method for Estimating Burned Total Body Surface Area from 2D Masks},
+  title={BurnAreaNet: A Deep Learning Method for Estimating Total Body Surface Area from 2D Masks},
   author={Hao Wang, Kaize Zheng, Shuaidan Zeng, Yanyan Liang, Zhu Xiong},
   year={2026}
 }
