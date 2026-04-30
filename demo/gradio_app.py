@@ -24,8 +24,9 @@ print(f"Using device: {device}")
 
 # Initialize models
 print("Loading SAM2 model...")
-sam2_model = build_sam2("configs/sam2.1/sam2.1_hiera_t.yaml", "sam2.1_hiera_tiny.pt")
-sam2_model.to(device)
+sam2_model = build_sam2(
+    "configs/sam2.1/sam2.1_hiera_t.yaml", "sam2.1_hiera_tiny.pt", device=device
+)
 sam2predictor = SAM2ImagePredictor(sam2_model)
 
 print("Loading BurnAreaNet model...")

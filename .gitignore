@@ -2,5 +2,6 @@
 __pycache__
 logs
 mass_human_burns
+sam_precessed_MHB
 *.safetensors
 *.pt
