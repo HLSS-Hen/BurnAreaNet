@@ -18,7 +18,8 @@ Download the pre-trained model weights from Hugging Face:
 ### Dataset
 The dataset used for training and evaluation can be found on Hugging Face:
 
-[Hugging Face Dataset: MassHumanBurns](https://huggingface.co/datasets/HLSS/MassHumanBurns)
+[Hugging Face Dataset: MassHumanBurns](https://huggingface.co/datasets/HLSS/MassHumanBurns)  
+[Hugging Face Dataset: SAM_PreprocessedMHB](https://huggingface.co/datasets/HLSS/SAM_Preprocessed_MHB)
 
 For more information on how the dataset was constructed, please refer to the official builder tool:
 
