@@ -20,8 +20,7 @@ Download the SAM2.1 Hiera Tiny, place `sam2.1_hiera_tiny.pt` in the `demo/` dire
 
 #### BurnAreaNet Model
 
-The trained BurnAreaNet model (`model.safetensors`) should be located in the project root. Create a symbolic link from the parent directory:
-
+The trained BurnAreaNet model (`model.safetensors`) should be located in the project root. We recommend you use ``SAM_P_MHB`` version. Create a symbolic link from the parent directory:
 ```bash
 ln -s ../model.safetensors model.safetensors
 ```
