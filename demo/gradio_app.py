@@ -27,7 +27,7 @@ print("Loading SAM2 model...")
 sam2_model = build_sam2(
     "configs/sam2.1/sam2.1_hiera_t.yaml", "sam2.1_hiera_tiny.pt", device=device
 )
-sam2predictor = SAM2ImagePredictor(sam2_model)
+sam2predictor = SAM2ImagePredictor(sam2_model,mask_threshold=-1)
 
 print("Loading BurnAreaNet model...")
 burn_net = BurnAreaNet()
