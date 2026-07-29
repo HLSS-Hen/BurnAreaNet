@@ -25,6 +25,9 @@ For more information on how the dataset was constructed, please refer to the off
 
 [MassHumanBurns Dataset Builder](https://github.com/HLSS-Hen/MassHumanBurns_Builder)
 
+The evolution only data HSR_Burns:
+[Hugging Face Dataset: HSR_Burns](https://huggingface.co/datasets/HLSS/HSR_Burns/)
+
 ## Demo
 We provide an additional demo script in the ``demo/`` folder. **Please note that this demo is intended for demonstration purposes only.** It relies on a vanilla SAM2 model for mask generation, which may not produce perfect segmentations on our sample images and will therefore affect the final TBSA estimation accuracy.
 
