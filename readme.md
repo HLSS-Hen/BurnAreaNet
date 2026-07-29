@@ -12,8 +12,7 @@ The code in this repository is designed to reproduce the experiments and results
 - Required Python packages (usually listed in ``requirements.txt``)
 
 ### Model Weights
-Download the pre-trained model weights from Hugging Face:
-[model.safetensors](https://huggingface.co/HLSS/BurnAreaNet/resolve/main/model.safetensors) or [(SAM_P_MHB pretrained)model.safetensors](https://huggingface.co/HLSS/BurnAreaNet-SAM_P_MHB/resolve/main/model.safetensors?download=true)
+Download the pre-trained model weights from [Hugging Face Model: BurnAreaNet](https://huggingface.co/HLSS/BurnAreaNet).
 
 ### Dataset
 The dataset used for training and evaluation can be found on Hugging Face:
